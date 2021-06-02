@@ -60,6 +60,7 @@ export const Input = styled.TextInput`
     background-color: rgba(255,255,255,0.15);
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
+    color: #FFF;
 `;
 
 export const ButtonLink = styled.TouchableOpacity`
