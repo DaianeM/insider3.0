@@ -8,6 +8,7 @@ import Menu from '../../components/Menu';
 import {Feather} from '@expo/vector-icons';
 
 import api from '../../services/api';
+import {saveLink} from '../../utils/storeLinks';
 
 import {ContainerLogo, Logo, ContainerContent, Title, SubTitle, ContainerInput, BoxIcon, Input, ButtonLink, ButtonLinkText
 } from './styles';
@@ -29,8 +30,10 @@ export default function Home(){
                 long_url: input
             })
             setData(response.data);
-
             setModalVisible(true);
+
+            saveLink('sujeitolinks', response.data);
+
             Keyboard.dismiss();
             setLoading(false);
             setInput('');
