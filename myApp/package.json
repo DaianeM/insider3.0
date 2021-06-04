@@ -11,6 +11,7 @@
     "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/drawer": "^5.12.5",
     "@react-navigation/native": "^5.9.4",
+    "axios": "^0.21.1",
     "expo": "~41.0.1",
     "expo-clipboard": "~1.0.2",
     "expo-linear-gradient": "~9.1.0",
