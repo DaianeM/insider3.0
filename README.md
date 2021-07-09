@@ -4,6 +4,7 @@
 # Tecnologias utilizadas
 
 - React Native
+- Styled Components
 - API Bitly
 
 # Layout
